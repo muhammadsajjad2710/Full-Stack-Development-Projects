@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Notes App</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <p class="eyebrow">Full stack</p>
+    <h1>Notes App</h1>
+    <p class="lede">Create and delete notes from a simple full-stack UI.</p>
+    <form id="form"><input id="title" required placeholder="Title"><textarea id="body" required placeholder="Note"></textarea><button type="submit">Save note</button></form>
+    <ul id="list" class="list"></ul>
+    <p id="status" class="status" role="status"></p>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

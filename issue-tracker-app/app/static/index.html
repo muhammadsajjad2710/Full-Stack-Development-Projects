@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Issue Tracker</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <p class="eyebrow">Full stack</p>
+    <h1>Issue Tracker</h1>
+    <p class="lede">Open issues and close them when they are done.</p>
+    <form id="form"><input id="title" required placeholder="Issue title"><textarea id="description" placeholder="Details"></textarea><button type="submit">Open issue</button></form>
+    <ul id="list" class="list"></ul>
+    <p id="status" class="status" role="status"></p>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

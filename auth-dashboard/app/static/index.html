@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Auth Dashboard</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <p class="eyebrow">Full stack</p>
+    <h1>Auth Dashboard</h1>
+    <p class="lede">Register, log in, and read a protected profile.</p>
+    <form id="form"><input id="username" required minlength="3" placeholder="Username"><input id="password" type="password" required minlength="6" placeholder="Password"><div class="row"><button type="submit">Log in</button><button type="button" id="register" class="secondary">Register</button></div></form><p id="profile" class="meta"></p>
+    <ul id="list" class="list"></ul>
+    <p id="status" class="status" role="status"></p>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

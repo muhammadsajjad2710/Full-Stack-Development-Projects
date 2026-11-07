@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inventory App</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <p class="eyebrow">Full stack</p>
+    <h1>Inventory App</h1>
+    <p class="lede">Track stock and record sales from the UI.</p>
+    <form id="form" class="row"><input id="name" required placeholder="Product"><input id="stock" type="number" value="5"><input id="price_cents" type="number" value="499"><button type="submit">Add</button></form>
+    <ul id="list" class="list"></ul>
+    <p id="status" class="status" role="status"></p>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

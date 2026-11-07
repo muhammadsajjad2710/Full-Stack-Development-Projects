@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>URL Shortener</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <p class="eyebrow">Full stack</p>
+    <h1>URL Shortener</h1>
+    <p class="lede">Turn a long URL into a short code you can open.</p>
+    <form id="form" class="row"><input id="url" required placeholder="https://example.com"><button type="submit">Shorten</button></form>
+    <ul id="list" class="list"></ul>
+    <p id="status" class="status" role="status"></p>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>
